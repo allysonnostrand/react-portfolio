@@ -1,14 +1,21 @@
 import React from 'react'
 import './style.css'
 
-const Project = () => {
+
+const Project = (props) => {
+
   return (
-    <div className='card'>
-      <div className='text'>
-        <h2>card title</h2>
-        <p className='smalltext'>card text</p>
+
+      <div className='card'>
+        <div className='text'>
+          <h2>{props.title}</h2>
+          <a href='{props.deployed}' target="_blank" rel='noreferrer noopener'>Deployed
+          </a>
+          <a href='{props.repo}' target="_blank" rel='noreferrer noopener'>Repo
+          </a>
+        </div>
       </div>
-    </div>
+
   )
 }
 
