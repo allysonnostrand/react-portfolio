@@ -1,4 +1,16 @@
 li {
     text-decoration: none;
-    
+    display: inline-flex;
+    margin: 5px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    justify-content: flex-end;
+    display: flex;
+    background-color: rgb(210, 237, 124);
 }

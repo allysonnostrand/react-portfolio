@@ -9,9 +9,9 @@ const Project = (props) => {
       <div className='card'>
         <div className='text'>
           <h2>{props.title}</h2>
-          <a href='{props.deployed}' target="_blank" rel='noreferrer noopener'>Deployed
+          <a href={props.deployed} target="_blank" rel='noreferrer noopener'>Deployed
           </a>
-          <a href='{props.repo}' target="_blank" rel='noreferrer noopener'>Repo
+          <a href={props.repo} target="_blank" rel='noreferrer noopener'>Repo
           </a>
         </div>
       </div>

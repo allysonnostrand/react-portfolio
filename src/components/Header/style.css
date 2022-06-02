@@ -1,11 +1,10 @@
 header {
     background-color: rgb(210, 237, 124);
-    height: 100px;
+    height: 50px;
     border-bottom: 2px groove rgb(9, 56, 0);
 }
 
 h1 {
     text-align: start;
-    padding: 5px;
     margin-left: 10px;
 }
