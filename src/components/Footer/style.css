@@ -1,8 +1,9 @@
 footer {
-    background-color: rgb(70, 99, 101);
+    background-color: rgb(210, 237, 124);
     height: 50px;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    border-top: 2px groove rgb(9, 56, 0);
 }

@@ -1,13 +1,22 @@
 .card {
-    border: 2px solid black;
+    border: 1px solid black;
     margin: 50px;
     height: 250px;
     max-width: 400px;
     display: flex;
+    justify-content: space-around;
     align-items: flex-end;
 }
 
 .text {
+    background-color: rgba(249, 255, 68, 0.7);
+    display: inline-flex;
+    justify-content: space-between;
+    width: 400px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
-
+.smalltext {
+    margin: auto;
 }

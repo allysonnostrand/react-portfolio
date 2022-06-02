@@ -1,6 +1,7 @@
 header {
-    background-color: rgb(221, 232, 185);
+    background-color: rgb(210, 237, 124);
     height: 100px;
+    border-bottom: 2px groove rgb(9, 56, 0);
 }
 
 h1 {

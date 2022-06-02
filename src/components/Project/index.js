@@ -3,10 +3,10 @@ import './style.css'
 
 const Project = () => {
   return (
-    <div class="card">
-      <div class="text">
+    <div className='card'>
+      <div className='text'>
         <h2>card title</h2>
-        <p>card text</p>
+        <p className='smalltext'>card text</p>
       </div>
     </div>
   )
