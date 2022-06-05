@@ -4,7 +4,10 @@ import './style.css'
 const Footer = () => {
   return (
     <footer>
-        <h3>github linkedin</h3>
+        <a className='footernav' href='https://github.com/allysonnostrand' target="_blank" rel='noreferrer noopener'>Github
+          </a>
+        <a className='footernav'href='https://linkedin.com/in/allyson-nostrand-912910154' target="_blank" rel='noreferrer noopener'>LinkedIn
+          </a>
     </footer>
   )
 }

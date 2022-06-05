@@ -6,4 +6,10 @@ footer {
     bottom: 0;
     width: 100%;
     border-top: 2px groove rgb(9, 56, 0);
+    text-align: center;
+}
+
+.footernav {
+    margin: 25px;
+    font-weight: bolder;
 }
