@@ -1,23 +1,23 @@
 import React from 'react'
 import './style.css'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <nav>
         <ul>
-          <Link to="/about">
+          <NavLink to="/about">
             <li>About Me</li>
-          </Link>
-          <Link to="/contact">
+          </NavLink>
+          <NavLink to="/contact">
             <li>Contact</li>
-          </Link>
-          <Link to="/portfolio"> 
+          </NavLink>
+          <NavLink to="/portfolio"> 
             <li>Portfolio</li>
-          </Link> 
-          <Link to="/resume">
+          </NavLink> 
+          <NavLink to="/resume">
             <li>Resume</li>
-          </Link>
+          </NavLink>
         </ul>
     </nav>
   )

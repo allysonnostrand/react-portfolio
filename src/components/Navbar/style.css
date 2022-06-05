@@ -2,15 +2,19 @@ li {
     text-decoration: none;
     display: inline-flex;
     margin: 5px;
-    color: black;
-}
+} 
 
-a {
+ a {
     text-decoration: none;
-}
+} 
 
 ul {
     justify-content: flex-end;
     display: flex;
     background-color: rgb(210, 237, 124);
+}
+
+.active {
+    font-weight: bold;
+    text-shadow: 5px 5px 5px rgb(255, 255, 187);
 }
