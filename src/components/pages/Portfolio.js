@@ -22,13 +22,13 @@ export default function Portfolio (props) {
       image:'./images/quotegen-sc-1.png',
     },
     {
-      title:'Weather Dashboard',
+      title:'Weather Dash',
       deployed:'https://allysonnostrand.github.io/weather-dash/',
       repo:'https://github.com/allysonnostrand/weather-dash',
       image:'./images/weather-dash-sc-1.png',
     },
     {
-      title:'Password Generator',
+      title:'Password Gen',
       deployed:'https://allysonnostrand.github.io/password-gen/',
       repo:'https://github.com/allysonnostrand/password-gen',
       image:'./images/password-gen-sc-1.png',

@@ -10,7 +10,7 @@
 }
 
 .text {
-    background-color: rgba(249, 255, 68, 0.7);
+    background-color: rgb(231, 237, 124, .8);
     display: inline-flex;
     justify-content: space-between;
     width: 400px;
@@ -26,4 +26,9 @@ a {
     text-decoration: none;
     color: black;
     margin-top: 5px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-shadow: 5px 5px 5px rgb(255, 255, 255);
 }

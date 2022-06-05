@@ -1,9 +1,5 @@
-/* .App {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
-/* } */ 
 
+/* about me page---------------------------*/
 .bioImg {
   height: 500px;
   border: 1px solid black;
@@ -26,4 +22,79 @@
   border-radius: 25px;
   max-height: 300px;
   max-width: 400px;
+}
+
+/* contact me page--------------------------*/
+.contactbox {
+  display: flex;
+  justify-content: center;
+}
+
+.boxitems {
+  background-color: rgb(231, 237, 124);
+  border-radius: 8px;
+  margin-top: 100px;
+}
+
+.contacthead {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+form {
+  text-align: center;
+  margin: 20px;
+}
+
+.col {
+  margin: 10px;
+}
+
+.message {
+  margin-top: 30px;
+}
+
+/* resume page--------------------------*/
+
+.resumebox {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.boxwidth {
+  background-color:  rgb(231, 237, 124);
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.prof {
+  margin-top: 8px;
+}
+
+.resumeskills {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.skilllist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  background-color:  rgb(231, 237, 124);
+}
+
+.resumelink {
+  margin: 30px;
+}
+
+.resumelink:hover {
+  margin: 30px;
+  text-shadow: 5px 5px 5px rgb(255, 255, 222);
 }
