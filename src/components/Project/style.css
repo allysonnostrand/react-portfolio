@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    margin-bottom: 80px;
 }
 
 .text {
@@ -19,4 +20,10 @@
 
 .smalltext {
     margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
 }

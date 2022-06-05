@@ -7,37 +7,37 @@ export default function Portfolio (props) {
       title:'Tech Blog',
       deployed:'https://radiant-sea-69488.herokuapp.com/',
       repo:'https://github.com/allysonnostrand/tech-blog',
-      image:'fdsfsd',
+      image:'./images/tech-blog-sc-1.png',
     },
     {
       title:'Stardew Forum',
       deployed:'https://stardew-forum-project.herokuapp.com/',
       repo:'https://github.com/allysonnostrand/stardew_forum',
-      image:'fdsfdsasdfsd',
+      image:'./images/stardew-forum-sc-1.png'
     },
     {
       title:'Quote Generator',
       deployed:'https://derrikhan.github.io/quoteGenerator/',
       repo:'https://github.com/allysonnostrand/quoteGenerator',
-      image:'fdsfdsasdfsd',
+      image:'./images/quotegen-sc-1.png',
     },
     {
-      title:'Stardew Forum',
-      deployed:'https://stardew-forum-project.herokuapp.com/',
-      repo:'https://github.com/allysonnostrand/stardew_forum',
-      image:'fdsfdsasdfsd',
+      title:'Weather Dashboard',
+      deployed:'https://allysonnostrand.github.io/weather-dash/',
+      repo:'https://github.com/allysonnostrand/weather-dash',
+      image:'./images/weather-dash-sc-1.png',
     },
     {
-      title:'Stardew Forum',
-      deployed:'https://stardew-forum-project.herokuapp.com/',
-      repo:'https://github.com/allysonnostrand/stardew_forum',
-      image:'fdsfdsasdfsd',
+      title:'Password Generator',
+      deployed:'https://allysonnostrand.github.io/password-gen/',
+      repo:'https://github.com/allysonnostrand/password-gen',
+      image:'./images/password-gen-sc-1.png',
     },
     {
-      title:'Stardew Forum',
-      deployed:'https://stardew-forum-project.herokuapp.com/',
-      repo:'https://github.com/allysonnostrand/stardew_forum',
-      image:'fdsfdsasdfsd',
+      title:'Create Notes',
+      deployed:'https://enigmatic-ridge-02123.herokuapp.com/',
+      repo:'https://github.com/allysonnostrand/create-notes',
+      image:'./images/create-notes-sc-1.png',
     }
   ]
   return (

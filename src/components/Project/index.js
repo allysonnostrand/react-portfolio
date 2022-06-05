@@ -5,8 +5,7 @@ import './style.css'
 const Project = (props) => {
 
   return (
-
-      <div className='card'>
+      <div className='card' style={{backgroundImage: `url(${process.env.PUBLIC_URL + props.image})`,backgroundSize: 'cover'}}>
         <div className='text'>
           <h2>{props.title}</h2>
           <a href={props.deployed} target="_blank" rel='noreferrer noopener'>Deployed
@@ -15,6 +14,7 @@ const Project = (props) => {
           </a>
         </div>
       </div>
+      
 
   )
 }

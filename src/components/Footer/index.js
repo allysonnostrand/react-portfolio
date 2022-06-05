@@ -4,7 +4,7 @@ import './style.css'
 const Footer = () => {
   return (
     <footer>
-        <h2>footer</h2>
+        <h3>github linkedin</h3>
     </footer>
   )
 }
