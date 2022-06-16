@@ -5,7 +5,8 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
     <nav>
-        <ul>
+      <h1>Ally Nostrand</h1>
+        <ul>  
           <NavLink to="/about">
             <li>About Me</li>
           </NavLink>

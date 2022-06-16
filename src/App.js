@@ -1,4 +1,3 @@
-import Header from './components/Header';
 import Footer from './components/Footer';
 // import Project from './components/Project';
 import Navbar from './components/Navbar';
@@ -15,14 +14,13 @@ function App() {
     <Router>
       <div className="App">
        <Navbar />
-          <Header />
-            <Routes>
-              <Route path="/" element={<About/>} />
-              <Route path="/about" element={<About/>} />
-              <Route path="/contact" element={<Contact/>} />
-              <Route path="/portfolio" element={<Portfolio/>} />
-              <Route path="/resume" element={<Resume/>} />
-            </Routes>
+          <Routes>
+            <Route path="/" element={<About/>} />
+            <Route path="/about" element={<About/>} />
+            <Route path="/contact" element={<Contact/>} />
+            <Route path="/portfolio" element={<Portfolio/>} />
+            <Route path="/resume" element={<Resume/>} />
+          </Routes>
         <Footer />
       </div>
     </Router>  

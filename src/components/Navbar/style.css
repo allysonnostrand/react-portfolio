@@ -8,10 +8,19 @@ li {
     text-decoration: none;
 } 
 
+nav {
+    background-color: rgb(210, 237, 124);
+}
+
+h1 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
 ul {
     justify-content: flex-end;
     display: flex;
-    background-color: rgb(210, 237, 124);
 }
 
 .active {
