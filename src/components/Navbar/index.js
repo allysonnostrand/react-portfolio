@@ -5,10 +5,10 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
     <nav>
-      <h1>Ally Nostrand</h1>
+      <h1 className='logo'>Ally Nostrand</h1>
         <ul>  
           <NavLink to="/about">
-            <li>About Me</li>
+            <li>About</li>
           </NavLink>
           <NavLink to="/contact">
             <li>Contact</li>

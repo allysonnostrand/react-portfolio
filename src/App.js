@@ -1,5 +1,4 @@
 import Footer from './components/Footer';
-// import Project from './components/Project';
 import Navbar from './components/Navbar';
 import About from './components/pages/About'
 import Contact from './components/pages/Contact'
@@ -9,7 +8,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
-  
+
   return (
     <Router>
       <div className="App">
