@@ -24,11 +24,13 @@ ul {
     margin: 0;
 }
 
-ul a {
-    display: block;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    padding: 0.8rem;
+nav a {
+    transition: all ease-in-out 0.5s;
+}
+
+nav a:hover {
+    /* background-color: blueviolet; */
+    transform: scale(1.1);
 }
 
 li {
@@ -36,7 +38,42 @@ li {
     text-align: center;
 }
 
+.logo, nav a {
+    display: block;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    padding: 0.8rem;
+}
+
 .logo {
-    display: flex;
-    
+    margin: 0 auto;
+}
+
+@media (min-width:600px) {
+    nav {
+        line-height: 1.5rem;
+    }
+
+    nav ul {
+        width: 100%;
+    }
+
+    nav li {
+        flex: 1 0 10%
+    }
+}
+
+@media (min-width: 900px){
+    nav {
+        justify-content: space-between;
+    }
+
+    nav ul {
+        width: auto;
+    }
+
+    .logo {
+        margin: 0 0 0 0.3rem;
+        font-size: 30px;
+    }
 }
