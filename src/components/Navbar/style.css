@@ -47,10 +47,8 @@ li {
 
 .logo {
     margin: 0 auto;
-    font-family: 'Lora', serif;
-    font-weight: 900;
-    font-style: italic;
-    font-size: 30px;
+    font-family: 'Alice', serif;
+    font-size: 35px;
 }
 
 @media (min-width:600px) {
