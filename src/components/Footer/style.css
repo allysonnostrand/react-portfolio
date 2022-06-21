@@ -1,4 +1,6 @@
 footer {
+    display: inline-flex;
+    justify-content: space-evenly;
     background-color: rgb(210, 237, 124);
     height: 50px;
     position: fixed;
@@ -10,6 +12,11 @@ footer {
 }
 
 .footernav {
-    margin: 25px;
-    font-weight: bolder;
+    margin-top: 15px;
+    letter-spacing: .1rem;
+    transition: all ease-in-out 0.5s;
+}
+
+.footernav:hover {
+    transform: scale(1.1);
 }

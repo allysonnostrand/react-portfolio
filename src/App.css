@@ -18,6 +18,10 @@
   justify-content: space-evenly;
 }
 
+.abouttext h2 {
+  font-size: 21.5px;
+}
+
 .abouttext {
   margin-bottom: 60px;
   background-color: rgb(231, 237, 124);
@@ -77,6 +81,7 @@ form {
 
 .prof {
   margin-top: 8px;
+  font-size: 21.5px;
 }
 
 .resumeskills {
@@ -95,9 +100,13 @@ form {
 
 .resumelink {
   margin: 30px;
+  font-style: italic;
+  font-weight: 400;
+  transition: all ease-in-out 0.5s;
 }
 
 .resumelink:hover {
+  
   margin: 30px;
   text-shadow: 5px 5px 5px rgb(255, 255, 222);
 }
