@@ -26,14 +26,6 @@ To run this application make sure to run the command ```npx create-react-app```.
 
 Here are some screenshots of the deployed application
 
-<img src="./public/images/react-portfolio-sc-1.png">
-
-<img src="./public/images/react-portfolio-sc-2.png">
-
-<img src="./public/images/react-portfolio-sc-3.png">
-
-<img src="./public/images/react-portfolio-sc-4.png">
-
 ## License
 
 This application is covered under MIT license. 
