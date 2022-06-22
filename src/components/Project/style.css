@@ -7,10 +7,11 @@
     justify-content: space-around;
     align-items: flex-end;
     margin-bottom: 80px;
+    border-radius: 3px;
 }
 
 .text {
-    background-color: rgb(231, 237, 124, .8);
+    background-color:rgb(232, 210, 174);
     display: inline-flex;
     justify-content: space-between;
     width: 400px;
@@ -27,8 +28,4 @@ a {
     color: black;
     margin-top: 5px;
     font-weight: bold;
-}
-
-a:hover {
-    text-shadow: 5px 5px 5px rgb(255, 255, 255);
 }
