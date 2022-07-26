@@ -1,6 +1,6 @@
 
 nav {
-    background:rgb(221, 232, 185);
+    /* background:rgb(221, 232, 185); */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -8,12 +8,12 @@ nav {
     line-height: 1rem;
     overflow: hidden;
     padding-top: 10px;
-    border-bottom: 2px groove rgb(69, 58, 59);
+    /* border-bottom: 2px groove rgb(69, 58, 59); */
 }
 
 .active {
     font-size: large;
-    text-shadow: 5px 5px 5px rgb(232, 210, 174);
+    /* text-shadow: 5px 5px 5px rgb(232, 210, 174); */
 }
 
 ul {
@@ -51,7 +51,7 @@ li {
     font-family: 'Alice', serif;
     font-size: 35px;
     color:rgb(69, 58, 59);
-    text-decoration: underline rgb(203, 133, 137) 2px;
+    /* text-decoration: underline rgb(203, 133, 137) 2px; */
     text-underline-offset: 7px;
 }
 
