@@ -7,7 +7,7 @@ a:hover {
   text-shadow: 5px 5px 5px rgb(255, 244, 188);
 }
 
-/* about me page---------------------------*/
+/* about me ---------------------------*/
 .bioImg {
   height: 400px;
   border: 2.25px solid rgb(69, 58, 59);
@@ -38,7 +38,7 @@ a:hover {
   max-width: 400px;
 }
 
-/* contact me page--------------------------*/
+/* contact me --------------------------*/
 .contactbox {
   display: flex;
   justify-content: center;
@@ -81,52 +81,23 @@ a:hover {
   text-underline-offset: 2px;
 }
 
-/* resume page--------------------------*/
-
-.resumebox {
+/* Footer--------------------------------------------- */
+footer {
+  display: inline-flex;
+  justify-content: space-evenly;
+  height: 45px;
+  width: 100%;
+  
   text-align: center;
-  display: flex;
-  justify-content: center;
 }
 
-.boxwidth {
-  background-color:rgb(232, 210, 174);
-  max-width: fit-content;
-  display: flex;
-  flex-direction: column;
-  border-radius: 8px;
-  margin-top: 40px;
-}
-
-.prof {
-  margin-top: 8px;
-  font-size: 21.5px;
+.footernav {
+  margin-top: 12px;
   letter-spacing: .1rem;
-}
-
-.resumeskills {
-  display: flex;
-  justify-content: center;
-  margin-top: 8px;
-}
-
-.skilllist {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  line-height: 28px;
-  font-weight: bold;
-  background-color: rgb(232, 210, 174);
-}
-
-.resumelink {
-  margin: 30px;
-  font-style: italic;
-  font-weight: 400;
   transition: all ease-in-out 0.5s;
+  color: rgb(69, 58, 59);
 }
 
-.resumelink:hover {
-  margin: 30px;
-  text-shadow: 5px 5px 5px rgb(232, 210, 174);
+.footernav:hover {
+  transform: scale(1.1);
 }

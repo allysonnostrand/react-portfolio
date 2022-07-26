@@ -1,24 +1,24 @@
 import React from 'react'
 import './style.css'
-import { NavLink } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 
 const Navbar = () => {
   return (
     <nav>
       <h1 className='logo'>Ally Nostrand</h1>
         <ul>  
-          <NavLink to="/about">
+          <Link to="#aboutMe">
             <li>About</li>
-          </NavLink>
-          <NavLink to="/contact">
+          </Link>
+          <Link to="#contact">
             <li>Contact</li>
-          </NavLink>
-          <NavLink to="/portfolio"> 
+          </Link>
+          <Link to="#projects"> 
             <li>Portfolio</li>
-          </NavLink> 
-          <NavLink to="/resume">
+          </Link> 
+          <Link to="">
             <li>Resume</li>
-          </NavLink>
+          </Link>
         </ul>
     </nav>
   )
