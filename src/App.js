@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Project from './components/Project';
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
+import Contact_Form from './components/Contact Form';
 
 function App(props) {
   const objects = [
@@ -44,26 +45,12 @@ function App(props) {
           <br /><br />test</p>
         </div>
         </div>
-        <div id='projects'>
-        {objects.map(obj=> {
-        return (<Project key={obj.title} title={obj.title} deployed={obj.deployed} repo={obj.repo} image={obj.image} />)
-        })}
+        <div id='projects' className='projects'>
+          {objects.map(obj=> {
+          return (<Project key={obj.title} title={obj.title} deployed={obj.deployed} repo={obj.repo} image={obj.image} />)
+          })}
         </div>
-        <div className='contactbox' id='contact'>
-          <div className='boxitems'>
-            <h3 className='contacthead'>Please feel free to reach out!</h3>
-            <p>Email: allyson.nostrandd@gmail.com</p>
-            <div className='extra'>
-              <h3 className='extrahead'>You can also find me on</h3>
-              Github: <a className='contactlinks' href='https://github.com/allysonnostrand' target="_blank" rel='noreferrer noopener'>https://github.com/allysonnostrand
-              </a>
-              <br></br>
-              LinkedIn: <a className='contactlinks' href='https://linkedin.com/in/allyson-nostrand-912910154' target="_blank" rel='noreferrer noopener'>https://linkedin.com/in/allyson-nostrand-912910154
-              </a>
-            </div>
-            <h4>Thank you for visiting!</h4>
-          </div>
-        </div>
+        <Contact_Form />
         <footer>
           <a className='footernav' href='https://github.com/allysonnostrand' target="_blank" rel='noreferrer noopener'>Github
           </a>
