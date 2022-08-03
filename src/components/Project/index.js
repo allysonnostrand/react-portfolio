@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-
+// import { FaGithub, FaRocket } from 'react-icons/fa'
 
 const Project = (props) => {
 
@@ -16,8 +16,6 @@ const Project = (props) => {
           </div>
         </div>
       </div>
-      
-
   )
 }
 

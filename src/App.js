@@ -2,7 +2,9 @@ import Navbar from './components/Navbar';
 import Project from './components/Project';
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Contact_Form from './components/Contact Form';
+import ContactForm from './components/ContactForm';
+import { FaGithubSquare, FaLinkedin} from 'react-icons/fa'
+import { IconContext } from 'react-icons';
 
 function App(props) {
   const objects = [
@@ -42,7 +44,7 @@ function App(props) {
           <h2>About Me</h2>
           <p>Recent graduate of the University of Washington Coding Bootcamp looking to start a professional career in Web Development.
            Spent the past several years working in the customer service industry- building on soft skills inlcuding communication, accountability and adaptability.
-          <br /><br />test</p>
+          </p>
         </div>
         </div>
         <div id='projects' className='projects'>
@@ -50,12 +52,14 @@ function App(props) {
           return (<Project key={obj.title} title={obj.title} deployed={obj.deployed} repo={obj.repo} image={obj.image} />)
           })}
         </div>
-        <Contact_Form />
+        <ContactForm />
         <footer>
-          <a className='footernav' href='https://github.com/allysonnostrand' target="_blank" rel='noreferrer noopener'>Github
-          </a>
-          <a className='footernav'href='https://linkedin.com/in/allyson-nostrand-912910154' target="_blank" rel='noreferrer noopener'>LinkedIn
-          </a>
+          <IconContext.Provider value={{color: "white"}}>
+            <a className='footernav' href='https://github.com/allysonnostrand' target="_blank" rel='noreferrer noopener'><FaGithubSquare className='footer-icon' />
+            </a>
+            <a className='footernav'href='https://linkedin.com/in/allyson-nostrand-912910154' target="_blank" rel='noreferrer noopener'><FaLinkedin className='footer-icon' />
+            </a>
+          </IconContext.Provider>
         </footer>
       </div>
     </Router>   

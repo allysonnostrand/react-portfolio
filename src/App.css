@@ -3,7 +3,7 @@
   color: rgb(7, 8, 8);
 }
 
-a {
+a:not(.footer-link){
   text-decoration: none;
   color: black;
   margin-top: 5px;
@@ -21,11 +21,9 @@ a {
 }
 
 .containers {
-  /* margin-top: 30px;
-  margin-left: 15px; */
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .abouttext h2 {
@@ -34,11 +32,7 @@ a {
 }
 
 .abouttext {
-  /* margin-bottom: 60px; */
-  /* background-color:rgb(232, 210, 174); */
   text-align: center;
-  border-radius: 8px;
-  max-height: 300px;
   max-width: 400px;
 }
 
@@ -102,6 +96,12 @@ footer {
   text-align: center;
 }
 
+.footer-icon {
+  height: 40px;
+  width: 40px;
+  /* color:rgb(69, 58, 59); */
+}
+
 .footernav {
   margin-top: 12px;
   letter-spacing: .1rem;
@@ -128,5 +128,37 @@ footer {
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: auto auto auto auto;
+  }
+  
+  .abouttext {
+    border-left: 3px solid rgb(69, 58, 59);
+  }
+
+  .abouttext p {
+    line-height: 2;
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: none;
+    padding-top: 0px;
+  }
+
+  .abouttext h2 {
+    font-size: 29px;
+    margin-bottom: 6px;
+    padding: 0px;
+  }
+
+  .containers {
+    margin: 35px 0px;
+  }
+
+  .containers *{
+    padding: 50px 50px;
+  }
+
+  .bioImg {
+    margin: 8px 50px 0 100px;
+    border-radius: 3px;
+    height: 442px;
   }
 }

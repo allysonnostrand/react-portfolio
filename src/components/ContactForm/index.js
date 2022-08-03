@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Contact_Form = () => {
+const ContactForm = () => {
   return (
     <div className='contactbox' id='contact'>
           <div className='boxitems'>
@@ -20,4 +20,4 @@ const Contact_Form = () => {
   )
 }
 
-export default Contact_Form
+export default ContactForm
