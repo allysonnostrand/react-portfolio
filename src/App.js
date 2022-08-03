@@ -18,7 +18,7 @@ function App(props) {
       title:'Quote Generator',
       deployed:'https://derrikhan.github.io/quoteGenerator/',
       repo:'https://github.com/allysonnostrand/quoteGenerator',
-      image:'./images/quotegen-sc-1.png',
+      image:'./images/quoteGen-sc-1.png',
     },
     {
       title:'Weather Dash',
