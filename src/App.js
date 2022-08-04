@@ -39,7 +39,10 @@ function App(props) {
       <div className="App">
         <Navbar />
         <div className="containers" id="aboutMe">
-        <img className= "bioImg" src={process.env.PUBLIC_URL+"/images/Portfolio-image-1.png"} alt='ally sitting in a chair'></img>
+          {/* <div className='bio-img-container'> */}
+            {/* <img className='bio-img-border' src={process.env.PUBLIC_URL+"/images/clip-art-borders-907694.png"} alt='Black floral border png'></img> */}
+            <img className= "bioImg" src={process.env.PUBLIC_URL+"/images/Portfolio-image-1.png"} alt='ally sitting in a chair'></img>
+          {/* </div> */}
         <div className='abouttext'>
           <h2>About Me</h2>
           <p>Recent graduate of the University of Washington Coding Bootcamp looking to start a professional career in Web Development.

@@ -14,10 +14,25 @@ a:not(.footer-link){
 .bioImg {
   height: 300px;
   border-radius: 8%;
-  /* border: 2.25px solid rgb(69, 58, 59); */
-  /* border-radius: 199px 199px 53px 13px / 150px 150px 0px 0px; */
-  /* margin-bottom: 100px; */
+  margin: 40px;
   filter: sepia(20%);
+  
+  border-image: url(../public/images/clip-art-borders-907694.png)  27 /                    /* slice */
+  14px 14px 14px 14px /    /* width */
+  36px 36px 36px 36px       /* outset */
+  ;
+  -moz-border-image: url(../public/images/clip-art-borders-907694.png)  27 /                    /* slice */
+  14px 14px 14px 14px /    /* width */
+  36px 36px 36px 36px      /* outset */
+  ;
+  -webkit-border-image: url(../public/images/clip-art-borders-907694.png)  27 /                    /* slice */
+  14px 14px 14px 14px /    /* width */
+  36px 36px 36px 36px       /* outset */
+  ;
+  -o-border-image: url(../public/images/clip-art-borders-907694.png)  27 /                    /* slice */
+  14px 14px 14px 14px /    /* width */
+  36px 36px 36px 36px       /* outset */
+  ;
 }
 
 .containers {
@@ -29,11 +44,18 @@ a:not(.footer-link){
 .abouttext h2 {
   font-size: 20px;
   font-family: 'Lora', serif;
+  margin-bottom: 8px;
 }
 
 .abouttext {
   text-align: center;
   max-width: 400px;
+}
+
+.abouttext p {
+  line-height: 1.5;
+  font-size: 15px;
+  margin: 5px 10px 8px 10px;
 }
 
 /* projects---------------------------- */
@@ -124,14 +146,19 @@ footer {
 }
 
 @media (min-width: 900px){
+  .containers *:not(div){
+    padding: 50px 50px;
+  }
+  
   .projects {
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: auto auto auto auto;
   }
-  
+
   .abouttext {
     border-left: 3px solid rgb(69, 58, 59);
+    padding: 20px 30px;
   }
 
   .abouttext p {
@@ -144,7 +171,7 @@ footer {
 
   .abouttext h2 {
     font-size: 29px;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
     padding: 0px;
   }
 
@@ -152,13 +179,27 @@ footer {
     margin: 35px 0px;
   }
 
-  .containers *{
-    padding: 50px 50px;
-  }
+
 
   .bioImg {
     margin: 8px 50px 0 100px;
-    border-radius: 3px;
+    border-radius: 20px;
     height: 442px;
+    border-image: url(../public/images/clip-art-borders-907694.png)  27 /                    /* slice */
+    14px 14px 14px 14px /    /* width */
+    10px 10px 10px 10px       /* outset */
+    ;
+    -moz-border-image: url(../public/images/clip-art-borders-907694.png)  27 /                    /* slice */
+    14px 14px 14px 14px /    /* width */
+    10px 10px 10px 10px      /* outset */
+    ;
+    -webkit-border-image: url(../public/images/clip-art-borders-907694.png)  27 /                    /* slice */
+    14px 14px 14px 14px /    /* width */
+    10px 10px 10px 10px       /* outset */
+    ;
+    -o-border-image: url(../public/images/clip-art-borders-907694.png)  27 /                    /* slice */
+   14px 14px 14px 14px /    /* width */
+    10px 10px 10px 10px       /* outset */
+  ;
   }
 }
