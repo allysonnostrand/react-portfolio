@@ -1,14 +1,20 @@
 * {
   font-family: 'Lora', serif;
   color: rgb(7, 8, 8);
+  scroll-behavior: smooth;
 }
 
-a:not(.footer-link){
-  text-decoration: none;
-  color: black;
-  margin-top: 5px;
-  font-weight: bold;
+.newFooter {
+  width: 100%;
+  background-color: rgb(7, 6, 6);
+  padding-bottom: 5px;
 }
+
+.newFooter p, a {
+  color: white;
+  text-decoration: none;
+}
+
 
 /* about me ---------------------------*/
 .bioImg {
@@ -16,22 +22,34 @@ a:not(.footer-link){
   border-radius: 8%;
   margin: 40px;
   filter: sepia(20%);
-  
-  border-image: url(../public/images/clip-art-borders-907694.png)  27 /                    /* slice */
-  14px 14px 14px 14px /    /* width */
-  36px 36px 36px 36px       /* outset */
+
+  border-image: url(../public/images/clip-art-borders-907694.png) 27 /
+    /* slice */
+    14px 14px 14px 14px /
+    /* width */
+    36px 36px 36px 36px
+    /* outset */
   ;
-  -moz-border-image: url(../public/images/clip-art-borders-907694.png)  27 /                    /* slice */
-  14px 14px 14px 14px /    /* width */
-  36px 36px 36px 36px      /* outset */
+  -moz-border-image: url(../public/images/clip-art-borders-907694.png) 27 /
+    /* slice */
+    14px 14px 14px 14px /
+    /* width */
+    36px 36px 36px 36px
+    /* outset */
   ;
-  -webkit-border-image: url(../public/images/clip-art-borders-907694.png)  27 /                    /* slice */
-  14px 14px 14px 14px /    /* width */
-  36px 36px 36px 36px       /* outset */
+  -webkit-border-image: url(../public/images/clip-art-borders-907694.png) 27 /
+    /* slice */
+    14px 14px 14px 14px /
+    /* width */
+    36px 36px 36px 36px
+    /* outset */
   ;
-  -o-border-image: url(../public/images/clip-art-borders-907694.png)  27 /                    /* slice */
-  14px 14px 14px 14px /    /* width */
-  36px 36px 36px 36px       /* outset */
+  -o-border-image: url(../public/images/clip-art-borders-907694.png) 27 /
+    /* slice */
+    14px 14px 14px 14px /
+    /* width */
+    36px 36px 36px 36px
+    /* outset */
   ;
 }
 
@@ -72,7 +90,7 @@ a:not(.footer-link){
 /* contact me --------------------------*/
 
 .boxitems {
-  background-color:rgb(232, 210, 174);
+  background-color: rgb(232, 210, 174);
   border-radius: 8px;
   /* margin-top: 40px; */
   letter-spacing: 1px;
@@ -145,11 +163,11 @@ footer {
   }
 }
 
-@media (min-width: 900px){
-  .containers *:not(div){
+@media (min-width: 900px) {
+  .containers *:not(div) {
     padding: 50px 50px;
   }
-  
+
   .projects {
     display: grid;
     justify-content: space-evenly;
@@ -185,21 +203,33 @@ footer {
     margin: 8px 50px 0 100px;
     border-radius: 20px;
     height: 442px;
-    border-image: url(../public/images/clip-art-borders-907694.png)  27 /                    /* slice */
-    14px 14px 14px 14px /    /* width */
-    10px 10px 10px 10px       /* outset */
+    border-image: url(../public/images/clip-art-borders-907694.png) 27 /
+      /* slice */
+      14px 14px 14px 14px /
+      /* width */
+      10px 10px 10px 10px
+      /* outset */
     ;
-    -moz-border-image: url(../public/images/clip-art-borders-907694.png)  27 /                    /* slice */
-    14px 14px 14px 14px /    /* width */
-    10px 10px 10px 10px      /* outset */
+    -moz-border-image: url(../public/images/clip-art-borders-907694.png) 27 /
+      /* slice */
+      14px 14px 14px 14px /
+      /* width */
+      10px 10px 10px 10px
+      /* outset */
     ;
-    -webkit-border-image: url(../public/images/clip-art-borders-907694.png)  27 /                    /* slice */
-    14px 14px 14px 14px /    /* width */
-    10px 10px 10px 10px       /* outset */
+    -webkit-border-image: url(../public/images/clip-art-borders-907694.png) 27 /
+      /* slice */
+      14px 14px 14px 14px /
+      /* width */
+      10px 10px 10px 10px
+      /* outset */
     ;
-    -o-border-image: url(../public/images/clip-art-borders-907694.png)  27 /                    /* slice */
-   14px 14px 14px 14px /    /* width */
-    10px 10px 10px 10px       /* outset */
-  ;
+    -o-border-image: url(../public/images/clip-art-borders-907694.png) 27 /
+      /* slice */
+      14px 14px 14px 14px /
+      /* width */
+      10px 10px 10px 10px
+      /* outset */
+    ;
   }
 }
