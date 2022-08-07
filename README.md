@@ -3,9 +3,10 @@
 ## Description 
 
 Here is a link to the deployed application on Heroku
-https://allysonnostrand.herokuapp.com/
+[Allysonnostrand](https://allysonnostrand.herokuapp.com/)
 
 The goal for this assignment was to create a portfolio using react. This portfolio features an about me page, along with a contact me, resume and portfolio section displaying some of my projects. 
+If someone wants to contribute, do read [Installation](#installation).
 
 [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -17,21 +18,21 @@ The goal for this assignment was to create a portfolio using react. This portfol
 
 ## Installation
 
-To run this application make sure to run the command ```npx create-react-app```. Npm packages to instal with ```npm i```...
+To run this application make sure to run the command 
+```
+ $ git clone https://github.com/YOUR-USER-NAME/react-portfolio
+ $ cd react-portfolio
+ $ npm install # this will install node_modules
+ $ npm install react-bootstrap
+ $ npm install react-router-dom
+ ```
 
-- react-bootstrap
-- react-router-dom
-
-## Screenshots
-
-Here are some screenshots of the deployed application
 
 ## License
 
 This application is covered under MIT license. 
 
-## Questions
 
 https://github.com/allysonnostrand
 
-You can reach me at allyson.nostrandd@gmail.com if you have any questions!
+You can reach me at [Mail](allyson.nostrandd@gmail.com) if you have any questions!
