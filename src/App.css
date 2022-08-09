@@ -59,11 +59,6 @@ a:not(.footer-link){
 }
 
 /* projects---------------------------- */
-/* .projects {
-  /* display: grid;
-  justify-content: space-evenly;
-  grid-template-columns: auto auto auto; */
-/* }  */
 
 .projects .card {
   margin: 20px;
@@ -72,18 +67,12 @@ a:not(.footer-link){
 /* contact me --------------------------*/
 
 .boxitems {
-  background-color:rgb(232, 210, 174);
+  background-color:#accec299;
   border-radius: 8px;
-  /* margin-top: 40px; */
   letter-spacing: 1px;
   line-height: 1.75rem;
   text-align: center;
-  /* padding: 10px; */
 }
-
-/* .boxitems h4 {
-  margin-bottom: 10px;
-} */
 
 .contacthead {
   display: flex;
@@ -121,7 +110,6 @@ footer {
 .footer-icon {
   height: 40px;
   width: 40px;
-  /* color:rgb(69, 58, 59); */
 }
 
 .footernav {
@@ -134,7 +122,6 @@ footer {
 .footernav:hover {
   transform: scale(1.1);
 }
-
 
 /* media queries ---------------------------- */
 @media (min-width:600px) {
@@ -178,8 +165,6 @@ footer {
   .containers {
     margin: 35px 0px;
   }
-
-
 
   .bioImg {
     margin: 8px 50px 0 100px;
