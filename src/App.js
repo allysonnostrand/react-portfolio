@@ -50,7 +50,7 @@ function App(props) {
         </div>
         <ContactForm />
         <footer>
-          <IconContext.Provider value={{color: "white"}}>
+          <IconContext.Provider value={{color: "rgb(144, 238, 144)"}}>
             <a className='footernav' href='https://github.com/allysonnostrand' target="_blank" rel='noreferrer noopener'><FaGithubSquare className='footer-icon' />
             </a>
             <a className='footernav'href='https://linkedin.com/in/allyson-nostrand-912910154' target="_blank" rel='noreferrer noopener'><FaLinkedin className='footer-icon' />
