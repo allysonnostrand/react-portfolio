@@ -1,4 +1,6 @@
-
+* {
+    font-family: 'Karla', sans-serif;;
+}
 nav {
     /* background:rgb(221, 232, 185); */
     display: flex;
@@ -8,6 +10,7 @@ nav {
     line-height: 1rem;
     overflow: hidden;
     padding-top: 10px;
+    background-color: rgb(192, 125, 255);
     /* border-bottom: 2px groove rgb(69, 58, 59); */
 }
 
@@ -48,9 +51,8 @@ li {
 
 .logo {
     margin: 0 auto;
-    font-family: 'Alice', serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 35px;
-    color:rgb(69, 58, 59);
     /* text-decoration: underline rgb(203, 133, 137) 2px; */
     text-underline-offset: 7px;
 }
