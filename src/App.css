@@ -33,13 +33,15 @@ a:not(.footer-link){
   border-radius: 8px;
   letter-spacing: 1px;
   line-height: 1.75rem;
-  /* text-align: center; */
+  margin-top: 10px;
 }
 
 .contact {
   display: inline-block;
   justify-content: center;
+  font-size: x-small;
   padding-bottom: 80px;
+  color: rgb(187, 0, 171);
 }
 
 .contacts {
@@ -114,6 +116,10 @@ footer {
     position: relative;
     top: 80%;
   }
+
+  .contact {
+    font-size: large;
+  }
 }
 
 @media (min-width: 900px){
@@ -126,5 +132,10 @@ footer {
   .contacts {
     position: relative;
     top: 80%;
+  }
+
+  .boxitems {
+    /* position: relative;
+    bottom: -410px; */
   }
 }

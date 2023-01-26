@@ -48,11 +48,13 @@ function App(props) {
           return (<Project key={obj.title} title={obj.title} deployed={obj.deployed} repo={obj.repo} image={obj.image} />)
           })}
         </div>
-        <ContactForm />
+        
         <footer>
+          
           <IconContext.Provider value={{color: "rgb(144, 238, 144)"}}>
             <a className='footernav' href='https://github.com/allysonnostrand' target="_blank" rel='noreferrer noopener'><FaGithubSquare className='footer-icon' />
             </a>
+            <ContactForm />
             <a className='footernav'href='https://linkedin.com/in/allyson-nostrand-912910154' target="_blank" rel='noreferrer noopener'><FaLinkedin className='footer-icon' />
             </a>
           </IconContext.Provider>

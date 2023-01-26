@@ -60,9 +60,9 @@ li {
 .logo {
     margin: 0 auto;
     color: rgb(0, 0, 0);
-    font-family:'Karla', sans-serif;
-    font-size: 45px;
-    font-weight: 800;
+    font-family: 'Staatliches', cursive;
+    font-size: 55px;
+    font-weight: 200;
     /* text-decoration: underline rgb(203, 133, 137) 2px; */
     text-underline-offset: 7px;
 }
@@ -80,6 +80,10 @@ li {
         flex: 1 0 10%
     }
 
+    .logo {
+        
+        font-size: 47px;
+    }
 }
 
 @media (min-width: 900px){
