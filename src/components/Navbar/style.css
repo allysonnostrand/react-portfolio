@@ -51,15 +51,10 @@ li {
 
 .logo {
     margin: 0 auto;
-<<<<<<< HEAD
     color: rgb(0, 0, 0);
     font-family: 'Staatliches', cursive;
     font-size: 55px;
     font-weight: 200;
-=======
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 35px;
->>>>>>> parent of ee51a15 (added new styling)
     /* text-decoration: underline rgb(203, 133, 137) 2px; */
     text-underline-offset: 7px;
 }
@@ -76,14 +71,11 @@ li {
     nav li {
         flex: 1 0 10%
     }
-<<<<<<< HEAD
 
     .logo {
         
         font-size: 47px;
     }
-=======
->>>>>>> parent of ee51a15 (added new styling)
 }
 
 @media (min-width: 900px){

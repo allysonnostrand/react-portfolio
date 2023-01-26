@@ -25,23 +25,15 @@ a:not(.footer-link){
   border-radius: 8px;
   letter-spacing: 1px;
   line-height: 1.75rem;
-<<<<<<< HEAD
   margin-top: 10px;
-=======
-  text-align: center;
->>>>>>> parent of ee51a15 (added new styling)
 }
 
 .contacthead {
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
   font-size: x-small;
   padding-bottom: 80px;
   color: rgb(187, 0, 171);
-=======
-  margin: 10px;
->>>>>>> parent of ee51a15 (added new styling)
 }
 
 .extrahead {
@@ -94,7 +86,6 @@ footer {
     justify-content: space-evenly;
     grid-template-columns: auto auto;
   }
-<<<<<<< HEAD
 
   .contacts {
     position: relative;
@@ -104,8 +95,6 @@ footer {
   .contact {
     font-size: large;
   }
-=======
->>>>>>> parent of ee51a15 (added new styling)
 }
 
 @media (min-width: 900px){
@@ -114,7 +103,6 @@ footer {
     justify-content: space-evenly;
     grid-template-columns: auto auto auto auto;
   }
-<<<<<<< HEAD
 
   .contacts {
     position: relative;
@@ -125,6 +113,4 @@ footer {
     /* position: relative;
     bottom: -410px; */
   }
-=======
->>>>>>> parent of ee51a15 (added new styling)
 }

@@ -50,12 +50,8 @@ function App(props) {
         </div>
         
         <footer>
-<<<<<<< HEAD
           
           <IconContext.Provider value={{color: "rgb(144, 238, 144)"}}>
-=======
-          <IconContext.Provider value={{color: "white"}}>
->>>>>>> parent of ee51a15 (added new styling)
             <a className='footernav' href='https://github.com/allysonnostrand' target="_blank" rel='noreferrer noopener'><FaGithubSquare className='footer-icon' />
             </a>
             <ContactForm />
